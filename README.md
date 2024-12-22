@@ -22,16 +22,21 @@ Welcome to the **Termux Bot Setup Guide**! This guide will help you set up and r
 
 Make sure you have the following installed on your Termux app:
 
+- **Termux App:** [Download Termux](https://f-droid.org/en/packages/com.termux/)
 - **Node.js** (Version: `22.11.0`)
 - **npm** (Version: `10.9.0`)
 
-Run the following commands to install them:
+### Initial Termux Setup
+After installing Termux, run these commands to set up the environment:
 
 ```bash
 pkg update && pkg upgrade
+termux-setup-storage
 pkg install nodejs-lts
 pkg install git
 ```
+
+Grant Termux access to your device's storage when prompted.
 
 Check the versions:
 ```bash
@@ -128,6 +133,7 @@ chmod +x bot
 
 ## Contact and Support
 
+- **Help me with your referral** [Referral Link]()
 - **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801)
 
 If you encounter any issues or have questions, feel free to reach out:
