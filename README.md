@@ -91,13 +91,13 @@ Example configuration:
 ### 2. `datas.txt` - 🗂️ User Data
 
 ```txt
-query_id.../user...
-query_id.../user...
+
 ```
 
 ### 3. `wallets.txt` - 💼 Wallet Addresses
 
 ```txt
+abc...xyz
 abc...xyz
 abc...xyz
 ```
@@ -106,6 +106,8 @@ abc...xyz
 
 ```txt
 http://user:password@host:port
+https://user:password@host:port
+socks4://user:password@host:port
 socks5://user:password@host:port
 ```
 
