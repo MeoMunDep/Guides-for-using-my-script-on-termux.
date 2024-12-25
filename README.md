@@ -71,20 +71,11 @@ npm -v
 
 ### 1. `configs.json` - 📜 Adjust Bot Settings
 
-Example configuration:
+Depend on each script you dowload.
 
 ```json
 {
-  "timeZone": "en-US",
-  "rotateProxy": false,
-  "skipInvalidProxy": false,
-  "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
-  "doTasks": true,
-  "playGames": true,
-  "referralCode": ""
+ 
 }
 ```
 
