@@ -81,11 +81,15 @@ Depend on each script you dowload.
 
 ### 2. `datas.txt` - 🗂️ User Data
 
+Depend on each script you dowload.
+
 ```txt
 
 ```
 
 ### 3. `wallets.txt` - 💼 Wallet Addresses
+
+Depend on each script you dowload.
 
 ```txt
 abc...xyz
