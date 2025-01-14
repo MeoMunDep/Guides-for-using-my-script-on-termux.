@@ -60,7 +60,7 @@ npm -v
 2. **Install Dependencies:**
 
    ```bash
-   sudo npm install -g user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync
+   npm install --force -g user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync
    ```
 
 3. **Prepare Configuration Files:**
