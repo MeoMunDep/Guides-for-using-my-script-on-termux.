@@ -113,17 +113,17 @@ socks5://user:password@host:port
 1. Navigate to the bot folder:
 
    ```bash
-   cd /path/to/bot-folder
+   cd /path/to/meomundep-folder
    ```
 
 2. Run the bot:
    ```bash
-   node bot
+   node meomundep
    ```
 
 If you encounter permission issues, run:
 ```bash
-chmod +x bot
+chmod +x meomundep
 ```
 
 ---
