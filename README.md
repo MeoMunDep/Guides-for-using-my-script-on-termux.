@@ -34,6 +34,7 @@ pkg update && pkg upgrade
 termux-setup-storage
 pkg install nodejs-lts
 pkg install git
+pkg install python make
 ```
 
 Grant Termux access to your device's storage when prompted.
@@ -59,7 +60,7 @@ npm -v
 2. **Install Dependencies:**
 
    ```bash
-   npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync
+   sudo npm install -g user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync
    ```
 
 3. **Prepare Configuration Files:**
